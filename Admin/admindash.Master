@@ -1,0 +1,167 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admindash.master.cs" Inherits="UtensilsRentalSystem.Admin.admindash" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+
+<title>Admin Dashboard</title>
+
+<asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+<style>
+
+body{
+margin:0;
+font-family:Segoe UI;
+background:#f4f6f9;
+}
+
+/* Sidebar */
+
+.sidebar{
+width:250px;
+height:100vh;
+position:fixed;
+background:#1e293b;
+padding-top:25px;
+color:white;
+}
+
+.sidebar .logo{
+text-align:center;
+font-size:24px;
+font-weight:bold;
+margin-bottom:30px;
+}
+
+.sidebar a{
+display:block;
+padding:12px 20px;
+color:white;
+text-decoration:none;
+transition:0.3s;
+font-size:15px;
+}
+
+.sidebar a:hover{
+background:#334155;
+padding-left:25px;
+}
+
+.sidebar i{
+margin-right:10px;
+}
+
+/* Content */
+
+.main-content{
+margin-left:250px;
+padding:20px;
+}
+
+/* Topbar */
+
+.topbar{
+background:white;
+padding:12px 20px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<form id="form1" runat="server">
+
+<!-- Sidebar -->
+
+<div class="sidebar">
+
+<div class="logo">
+<i class="fa fa-store"></i> Rental Admin
+</div>
+
+<a href="dash1.aspx">
+<i class="fa fa-home"></i> Dashboard
+</a>
+
+<a href="customer.aspx">
+<i class="fa fa-users"></i> Manage Users
+</a>
+
+<a href="items.aspx">
+<i class="fa fa-box"></i> Manage Utensils
+</a>
+
+
+
+<a href="Bookinglist.aspx">
+<i class="fa fa-shopping-cart"></i> e-Bookings
+</a>
+    <a href="Createbooking.aspx">
+<i class="fa fa-shopping-cart"></i>Offline Bookings
+</a>
+
+<a href="payment.aspx">
+<i class="fa fa-credit-card"></i> Payments
+</a>
+
+<a href="reports.aspx">
+<i class="fa fa-chart-line"></i> Reports
+</a>
+
+<a href="settings.aspx">
+<i class="fa fa-cog"></i> Settings
+</a>
+
+<a href="login.aspx">
+<i class="fa fa-sign-out-alt"></i> Logout
+</a>
+
+</div>
+
+<!-- Main Content -->
+
+<div class="main-content">
+
+<!-- Top Navbar -->
+
+<div class="topbar d-flex justify-content-between align-items-center mb-4">
+
+<div class="fw-bold fs-5">
+Admin Dashboard
+</div>
+
+<div class="d-flex align-items-center gap-3">
+
+<i class="fa fa-bell"></i>
+<i class="fa fa-envelope"></i>
+<i class="fa fa-user-circle fs-4"></i>
+
+<asp:Label ID="lblUser" runat="server"></asp:Label>
+
+</div>
+
+</div>
+
+<!-- Page Content -->
+
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+
+</div>
+
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
