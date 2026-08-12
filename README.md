@@ -1,18 +1,16 @@
-🍽️ Online Utensils Rental System
 📌 Project Overview
 
-Online Utensils Rental System is a web-based application developed to simplify the process of renting utensils and event-related items. The system provides separate Admin and User modules to efficiently manage utensils, categories, users, bookings, orders, payments, and reports.
+Online Utensils Rental System is a web-based application developed to manage the rental of utensils and event-related items digitally. It provides separate Admin and User modules for managing utensils, categories, users, bookings, payments, and orders efficiently.
 
-The project works similar to an e-commerce platform where users can browse available utensils, add items to their cart, place rental orders, and manage their bookings.
+The project provides an e-commerce-like platform where users can browse available utensils, add items to their cart, place rental orders, and view their bookings.
 
 ✨ Features
 👤 User Registration & Login
-🏠 User Dashboard
 🍽️ Browse & View Utensils
-🛒 Add to Cart
-📦 Rental Booking Management
+🛒 Add Utensils to Cart
+📦 Place Rental Orders
 💳 Checkout & Payment Management
-📋 View My Bookings
+📋 View Booking Details
 👨‍💼 Admin Dashboard
 👥 Manage Users
 🍴 Manage Utensils
@@ -31,32 +29,31 @@ phpMyAdmin
 Visual Studio
 🗂️ Modules
 👨‍💼 Admin Module
-Admin Login
-Dashboard
+Admin Dashboard
 User Management
 Utensil Management
 Category Management
-Order & Booking Management
+Order Management
+Booking Management
 Payment Management
 Reports
-System Management
 👤 User Module
 User Registration
 User Login
 User Dashboard
-Utensil Browsing
+View Utensils
 Add to Cart
 Cart Management
 Checkout
-Rental Booking
+Place Rental Orders
 My Bookings
 📸 Screenshots
-🔐 User Login
+🔐 Login Page
 
 
 
 
-📊 Admin Dashboard
+📊 Dashboard
 
 
 
@@ -66,7 +63,7 @@ My Bookings
 
 
 
-🛒 Cart / Checkout
+🛒 Cart & Checkout
 
 
 
@@ -78,13 +75,13 @@ My Bookings
 
 🗄️ Database
 
-MySQL is used to store and manage:
+MySQL database is used to store:
 
 User Details
 Utensil Details
-Categories
-Orders
-Rental Bookings
+Category Information
+Order Details
+Booking Records
 Payment Details
 
 The database is managed using XAMPP and phpMyAdmin.
