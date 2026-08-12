@@ -53,22 +53,28 @@ My Bookings
 
 
 
-📊 Dashboard
+## 📸 Screenshots
 
+### 🔐 Login Page
+![Login Page](Screenshots/login.png)
 
+### 📊 Admin Dashboard
+![Admin Dashboard](Screenshots/Admindashbord.png)
 
+### 👤 User Dashboard
+![User Dashboard](Screenshots/Userdashboard.png)
 
-🍽️ Utensil Management
+### 🍽️ Add Utensils
+![Add Utensils](Screenshots/AddU.png)
 
+### 🛒 Add to Cart
+![Add to Cart](Screenshots/Addtocart.png)
 
+### 💳 Checkout
+![Checkout](Screenshots/Checkout.png)
 
-
-🛒 Cart & Checkout
-
-
-
-
-📦 My Bookings
+### 📦 Booking Details
+![Booking Details](Screenshots/bookingdetails.png)
 
 
 
